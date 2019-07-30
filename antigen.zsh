@@ -8,9 +8,11 @@ antigen bundle git
 antigen bundle command-not-found
 antigen bundle rupa/z
 
-# Syntax highlighting bundle.
+# Syntax highlighting and auto-completion
 antigen bundle zsh-users/zsh-syntax-highlighting
 antigen bundle zsh-users/zsh-autosuggestions
+
+antigen bundle lukechilds/zsh-nvm
 
 # Load the theme.
 SPACESHIP_PROMPT_ORDER=(
