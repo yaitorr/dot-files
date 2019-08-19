@@ -11,8 +11,10 @@ antigen bundle rupa/z
 # Syntax highlighting and auto-completion
 antigen bundle zsh-users/zsh-syntax-highlighting
 antigen bundle zsh-users/zsh-autosuggestions
+antigen bundle zsh-users/zsh-completions
 
 antigen bundle lukechilds/zsh-nvm
+antigen bundle lukechilds/zsh-better-npm-completion
 
 # Load the theme.
 SPACESHIP_PROMPT_ORDER=(
