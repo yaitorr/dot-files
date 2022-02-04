@@ -1,4 +1,5 @@
 # Enable autocompletions
+FPATH="/usr/local/share/zsh/site-functions:${FPATH}" #Homebrew-sourced auto-complete
 autoload -Uz compinit
 
 typeset -i updated_at=$(date +'%j' -r ~/.zcompdump 2>/dev/null || stat -f '%Sm' -t '%j' ~/.zcompdump 2>/dev/null)
