@@ -13,29 +13,5 @@ antigen bundle zsh-users/zsh-syntax-highlighting
 antigen bundle zsh-users/zsh-autosuggestions
 antigen bundle zsh-users/zsh-completions
 
-antigen bundle lukechilds/zsh-nvm
-antigen bundle lukechilds/zsh-better-npm-completion
-
-# Load the theme.
-SPACESHIP_PROMPT_ORDER=(
-    user          # Username section
-    dir           # Current directory section
-    host          # Hostname section
-    git           # Git section (git_branch + git_status)
-    package       # Package version
-    hg            # Mercurial section (hg_branch  + hg_status)
-    exec_time     # Execution time
-    line_sep      # Line break
-    vi_mode       # Vi-mode indicator
-    jobs          # Background jobs indicator
-    exit_code     # Exit code section
-    char          # Prompt character
-)
-SPACESHIP_PROMPT_ADD_NEWLINE=false
-SPACESHIP_CHAR_SYMBOL="❯"
-SPACESHIP_CHAR_SUFFIX=" "
-
-antigen theme denysdovhan/spaceship-prompt
-
 # Tell Antigen that you're done.
 antigen apply
